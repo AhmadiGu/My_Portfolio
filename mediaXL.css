@@ -8,6 +8,10 @@
     display: none;
   }
 
+  section.explain img.img {
+    display: none;
+  }
+
   h1,
   h2,
   h3,
@@ -162,7 +166,7 @@
     font-size: 25px;
   }
 
-  section.explain img {
+  section.explain img.img1 {
     width: 45%;
     height: 100%;
     align-self: flex-end;

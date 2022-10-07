@@ -8,6 +8,10 @@
     display: none;
   }
 
+  section.explain img.img {
+    display: none;
+  }
+
   h1,
   h2,
   h3,
@@ -66,6 +70,7 @@
   .fa-times {
     color: white;
     font-size: 25px;
+    margin-right: 6%;
   }
 
   /* head line start   */
@@ -171,7 +176,7 @@
     font-size: 25px;
   }
 
-  section.explain img {
+  section.explain img.img1 {
     width: 35%;
     height: 100%;
     align-self: flex-end;

@@ -18,11 +18,12 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 24px;
     text-align: center;
     color: #fff;
     padding-left: 10%;
+    margin-left: 2%;
   }
 
   /* start of  navbar */
@@ -32,8 +33,8 @@
     justify-content: space-between;
     flex-direction: row;
     background: #3c3a39;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .menu {
@@ -51,17 +52,13 @@
     font-weight: 500;
     font-size: 16.5px;
     line-height: 24px;
+    display: none;
   }
 
-  a {
-    text-decoration: none;
-    margin-right: 30px;
-  }
-
-  .fa-bars,
-  .fa-times {
+  .fa-bars {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 10%;
   }
 
   /* head line start   */
@@ -106,7 +103,7 @@
 
   section.explain h3 {
     width: 65%;
-    height: 123px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -120,8 +117,9 @@
 
   div.contact {
     margin-right: 35%;
-    margin-top: 350px;
+    margin-top: 450px;
     position: absolute;
+    width: 55%;
     margin-left: 8%;
   }
 
@@ -129,16 +127,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 38%;
-    text-decoration: none !important;
+    margin-top: 8%;
+    text-decoration: none;
   }
 
   div.contact li {
     margin-top: 10px;
+    margin-left: 5%;
   }
 
   div.contact a {
     list-style: none;
+    margin-left: 3%;
   }
 
   div.contact .fa-twitter {
@@ -166,26 +166,17 @@
     font-size: 25px;
   }
 
-  section.explain img {
-    width: 35%;
-    height: 100%;
-    align-self: flex-end;
+  section.explain img.img1 {
     display: none;
+  }
+
+  section.explain img.img {
+    width: 30%;
+    height: 60%;
+    align-self: flex-end;
+    margin-top: 300px;
     position: absolute;
     margin-right: 0;
-  }
-
-  section.explain span {
-    width: 40%;
-    height: 100%;
-  }
-
-  section.explain span.img {
-    background: url(images/Group.png) no-repeat;
-    width: 100%;
-    height: 100%;
-    margin-top: -30%;
-    margin-left: 136%;
   }
 
   /* head line end   */
@@ -206,13 +197,13 @@
   .title {
     width: 80%;
     height: 83px;
-    align-self: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 5%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 54px;
+    font-size: 34px;
     line-height: 52px;
     color: #1c1a19;
     margin-left: 10%;
@@ -220,14 +211,13 @@
   }
 
   section.works hr {
-    width: 85%;
+    width: 80%;
     height: 0;
     border: 1px solid #0f0e0e;
-    float: right;
     margin-top: 10px;
-    margin-right: 5%;
-    margin-left: 4%;
     margin-bottom: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   section.about hr {
@@ -235,11 +225,10 @@
   }
 
   div.image {
-    width: 85%;
-    height: 50vh;
+    width: 70%;
+    height: 45vh;
     margin-right: 5.2%;
-    margin-left: 9.2%;
-    float: left;
+    margin-left: 15.2%;
     margin-bottom: 2%;
   }
 
@@ -261,7 +250,7 @@
     font-size: 34px;
     line-height: 44px;
     color: #091e42;
-    margin-left: 0.5%;
+    margin-left: 15.5%;
   }
 
   p.content {
@@ -273,7 +262,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #091e42;
-    margin-left: 0.5%;
+    margin-left: 15.5%;
     margin-top: 3%;
   }
 
@@ -281,7 +270,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 0.5%;
+    margin-left: 15.5%;
     margin-bottom: 2%;
     margin-top: 1%;
   }
@@ -324,7 +313,7 @@
     background: #ff6b00;
     padding: 10px;
     font-size: 18px;
-    margin-left: 0.5%;
+    margin-left: 15.5%;
     margin-bottom: 50px;
   }
 
@@ -351,16 +340,16 @@
     margin-top: 8%;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 10%;
   }
 
   div.profesional {
     margin: 0%;
     padding: 0%;
-    width: 375px;
+    width: 345px;
     height: 406px;
   }
 
@@ -419,7 +408,7 @@
     background: #ff6b00;
     padding: 10px;
     font-size: 18px;
-    width: 280px;
+    width: 345px;
     margin-top: 365px;
   }
 
@@ -443,7 +432,6 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 365px;
     background: url(images/Placeholder1.png) no-repeat;
     border: 1px solid rgb(22, 17, 17);
   }
@@ -507,15 +495,15 @@
 
   .about-content {
     margin-top: 18%;
-    margin-left: 5%;
-    width: 80%;
+    margin-left: 15%;
+    width: 60%;
   }
 
   section.about h1 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 52px;
     color: #ff6b00;
     margin-top: 4%;
@@ -559,16 +547,16 @@
 
   .about-img {
     width: 57%;
-    margin-top: -60px;
+    margin-top: -90px;
     margin-left: 226.5px;
   }
 
   hr.about-hr {
-    width: 90%;
+    width: 80%;
     margin-top: 8%;
     margin-bottom: 6%;
-    margin-left: 4.6%;
-    margin-right: 4%;
+    margin-left: 14.6%;
+    margin-right: 14%;
     border: 1px solid #fff;
   }
 
@@ -655,11 +643,12 @@
   /* section contact */
   section.contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    height: auto;
     box-sizing: border-box;
     margin-top: 1300px;
     background: #fff;
@@ -667,6 +656,7 @@
 
   section.contact p {
     width: 65%;
+    height: 40vh;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -675,13 +665,13 @@
     text-align: center;
     color: #172b4d;
     margin-right: 5%;
-    padding-top: 14%;
-    padding-bottom: 40%;
+    margin-top: 100px;
   }
 
   section.contact form {
     width: 80%;
-    margin-right: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
     box-sizing: border-box;
   }
 
@@ -706,7 +696,7 @@
   }
 
   section.contact textarea {
-    height: 140px !important;
+    height: 190px !important;
     resize: vertical;
   }
 
@@ -727,6 +717,7 @@
     padding: 15px;
     font-size: 18px;
     margin-bottom: 40px;
+    margin-left: 30%;
   }
 
   button.touch:hover {
@@ -751,11 +742,12 @@
     width: 100%;
     height: 0;
     border: 1px solid #dfe1e6;
+    display: none;
   }
 
   ul.contact-footer {
     list-style-type: none;
-    display: flex;
+    display: none;
     flex-direction: row;
     margin-top: 5%;
     margin-bottom: 6%;
