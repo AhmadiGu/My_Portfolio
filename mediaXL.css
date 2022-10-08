@@ -31,6 +31,12 @@
     text-align: center;
     color: #fff;
     padding-left: 10%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .logo:hover {
+    transform: rotate(360deg);
+    color: #ff5100dc;
   }
 
   /* start of  navbar */
@@ -59,6 +65,12 @@
     font-weight: 500;
     font-size: 16.5px;
     line-height: 24px;
+  }
+
+  .link:hover {
+    transition: all 0.5s linear;
+    padding-bottom: 10px;
+    border-bottom: 2px solid  #ff5100dc;
   }
 
   a {
@@ -311,6 +323,7 @@
     font-size: 18px;
     margin-left: 6.5%;
     margin-bottom: 50px;
+    transition: all 0.3s linear;
   }
 
   button.see:hover {
@@ -406,6 +419,7 @@
     font-size: 18px;
     width: 370px;
     margin-top: 348px;
+    transition: all 0.3s linear;
   }
 
   button.see-project:hover {
@@ -517,6 +531,7 @@
     background: #ff6b00;
     padding: 10px;
     font-size: 18px;
+    transition: all 0.3s linear;
   }
 
   button.get:hover {
@@ -703,6 +718,7 @@
     padding: 15px;
     font-size: 18px;
     margin-bottom: 40px;
+    transition: all 0.3s linear;
   }
 
   button.touch:hover {
