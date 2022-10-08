@@ -727,7 +727,18 @@
     border: 1px solid #dfe1e6;
   }
 
- 
+  ul.contact-footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 6%;
+  }
+
+  li a i.color {
+    color: #505f79;
+    font-size: 25px;
+  }
 
   /* section contact end */
 }
