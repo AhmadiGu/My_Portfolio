@@ -65,8 +65,15 @@
     font-weight: 500;
     font-size: 16.5px;
     line-height: 24px;
+   
   }
-
+   
+  .link:hover{
+    transition: all 0.5s linear;
+    padding-bottom: 10px;
+    border-bottom: 2px solid  #ff5100dc;
+   
+  }
   a {
     text-decoration: none;
     margin-right: 30px;
