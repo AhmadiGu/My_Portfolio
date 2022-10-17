@@ -31,12 +31,12 @@
     text-align: center;
     color: #fff;
     padding-left: 10%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s linear;
   }
 
   .logo:hover {
     transform: rotate(360deg);
-    color: #ff5100dc;
+    color: #f3763d;
   }
 
   /* start of  navbar */
@@ -323,13 +323,14 @@
     font-size: 18px;
     margin-left: 6.5%;
     margin-bottom: 50px;
-    transition: all 0.3s linear;
+    
   }
 
   button.see:hover {
     background: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    transition: all 0.3s linear;
   }
 
   button.see:active {
@@ -353,13 +354,19 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 10%;
+
   }
 
   div.profesional {
     margin: 0%;
     padding: 0%;
     width: 370px;
-    height: 386px;
+    height: 386px; 
+  }
+  div.profesional:hover{
+    transition: all 0.3s linear;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
   }
 
   div.profesional h3 {
@@ -418,14 +425,14 @@
     padding: 10px;
     font-size: 18px;
     width: 370px;
-    margin-top: 348px;
+    margin-top: 346px;
     transition: all 0.3s linear;
   }
 
   button.see-project:hover {
     background: #fff5e1;
     border: 1px solid #f55800;
-    color: #f55800;
+    color: #f55800; 
   }
 
   button.see-project:active {
@@ -442,9 +449,8 @@
     margin-left: 32px;
     margin-right: 10px;
     background: url(images/Placeholder1.png) no-repeat;
-    border: 1px solid rgb(22, 17, 17);
-  }
-
+    border: 1px solid rgb(22, 17, 17);  
+  } 
   div.p-2 {
     margin-right: 10px;
     background: url(images/Placeholder2.png) no-repeat;
@@ -627,6 +633,14 @@
     line-height: 28px;
     color: #fcfcfd;
     display: inline-block;
+  }
+  img.list-icon{
+    transition: all 0.3s linear;
+  }
+  img.list-icon:hover{
+    transform: rotate(360deg);
+    outline: 1px solid  #f55800;
+    border-radius: 50%;
   }
 
   /* section about end */
