@@ -3,12 +3,15 @@
     padding: 0%;
     margin: 0%;
   }
-  html{
+
+  html {
     overflow-x: hidden;
   }
-  body{
+
+  body {
     overflow-x: hidden;
   }
+
   .contact p br {
     display: none;
   }
@@ -50,25 +53,27 @@
   }
 
   .menu {
-    list-style-type: none; 
+    list-style-type: none;
     position: absolute;
-     width: 100%;
-     height: 100vh;
-     background: #3c3a39;
-     top: 70px;
-     left: 0;
-     text-align: left;  
-     z-index: 999; 
-     transform: translateX(100%);
-     transition: all 0.3s linear;
-     opacity: 0;
-     visibility: hidden;
-     pointer-events: none;
-  } 
-  .menu li.optinal-link{
+    width: 100%;
+    height: 100vh;
+    background: #3c3a39;
+    top: 70px;
+    left: 0;
+    text-align: left;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .menu li.optinal-link {
     display: none;
-    border-bottom:none;
-   }
+    border-bottom: none;
+  }
+
   .menu li {
     margin: 50px 0;
     width: 90%;
@@ -77,7 +82,7 @@
     padding-bottom: 5%;
     border-bottom: 1px solid  rgb(204, 199, 199);
   }
-  
+
   .link {
     color: rgb(252, 244, 244);
     text-transform: capitalize;
@@ -86,41 +91,48 @@
     font-weight: 500;
     font-size: 45px;
     line-height: 24px;
-    
   }
 
   a {
     text-decoration: none;
     margin-right: 30px;
   }
-  .icon{
+
+  .icon {
     margin-right: 6%;
   }
+
   .fa-bars,
   .fa-times {
     color: white;
     font-size: 25px;
     margin-right: 6%;
   }
-  .fa-times{
+
+  .fa-times {
     display: none;
   }
-  .active .menu{
+
+  .active .menu {
     transform: translateX(0%);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
   }
+
   .active .icon .fa-bars {
     display: none;
   }
+
   .active .logo {
     display: none;
   }
-  .active .icon .fa-times{
+
+  .active .icon .fa-times {
     display: inline-block;
-     margin-left: 630px;
+    margin-left: 630px;
   }
+
   /* head line start   */
 
   /* section start */
@@ -189,7 +201,6 @@
     flex-direction: row;
     align-items: center;
     margin-top: 38%;
-    
   }
 
   div.contact li {
@@ -408,7 +419,8 @@
     width: 375px;
     height: 406px;
   }
-  div.profesional:hover{
+
+  div.profesional:hover {
     transition: all 0.3s linear;
     border-radius: 5%;
     box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
@@ -690,10 +702,12 @@
     width: 15px;
     height: 15px;
   }
-  img.list-icon{
+
+  img.list-icon {
     transition: all 0.3s linear;
   }
-  img.list-icon:hover{
+
+  img.list-icon:hover {
     transform: rotate(360deg);
     outline: 1px solid  #f55800;
     border-radius: 50%;
