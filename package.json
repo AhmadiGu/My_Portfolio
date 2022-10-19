@@ -1,28 +1,24 @@
 {
-  "name": "hellomicroverse",
+  "name": "Portfolio_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Html\r  - Css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhmadiGu/helloMicroverse.git"
+    "url": "git+https://github.com/soesandarwin2201/Portfolio_website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AhmadiGu/helloMicroverse/issues"
+    "url": "https://github.com/soesandarwin2201/Portfolio_website/issues"
   },
-  "homepage": "https://github.com/AhmadiGu/helloMicroverse#readme",
+  "homepage": "https://github.com/soesandarwin2201/Portfolio_website#readme",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.26.0",
-    "hint": "^2.0.0",
+    "hint": "^7.1.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
