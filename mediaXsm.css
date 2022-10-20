@@ -876,8 +876,8 @@
     background-color: rgb(236, 98, 33);
     height: 80px;
     margin-bottom: 5px;
-  } 
-  
+  }
+
   .error {
     font-size: 14px !important;
     color: rgb(245, 239, 239) !important;
@@ -885,6 +885,6 @@
     margin-top: -10%;
     position: absolute;
   }
-  
+
   /* section contact end */
 }
