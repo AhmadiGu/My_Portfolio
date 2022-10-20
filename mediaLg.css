@@ -810,7 +810,7 @@
     justify-content: flex-start;
     background-color: rgb(243, 100, 33);
     height: 80px;
-     margin-bottom: 5px;
+    margin-bottom: 5px;
   } 
   
   .error {
@@ -820,5 +820,6 @@
     margin-top: -10%;
     position: absolute;
   }
+  
   /* section contact end */
 }
