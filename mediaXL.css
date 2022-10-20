@@ -826,7 +826,7 @@
     background-color: rgb(240, 99, 34);
     height: 50px;
     margin-bottom: 5px;
-    opacity: 0; 
+    opacity: 0;
   }
 
   .error {
@@ -836,7 +836,7 @@
     margin-top: -5% !important;
     position: absolute !important;
     margin-left: 1% !important;
-    width: 100% !important; 
+    width: 100% !important;
   }
 
   /* section contact end */
