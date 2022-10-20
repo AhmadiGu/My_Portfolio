@@ -123,9 +123,12 @@
 
   .active .icon .fa-times {
     display: block;
-    margin-left: 430px;
+    margin-left: 330px !important;
   }
-
+  
+  .disappear{
+    opacity: 0;
+  }
   /* head line start   */
 
   /* section start */
