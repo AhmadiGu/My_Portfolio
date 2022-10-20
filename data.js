@@ -165,4 +165,16 @@ const openModal = (id) => {
           `;
 };
 
-
+const openModalButton = document.querySelectorAll('.modal-button');
+const buttonsArray = [...openModalButton];
+buttonsArray.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    const { id } = e.target;
+    openModal(id);
+    const closeModal = document.getElementById('modal-close');
+    closeModal.addEventListener('click', () => {
+      modal.style.display = 'none';
+      container.style.filter = 'none';
+    });
+  });
+});
