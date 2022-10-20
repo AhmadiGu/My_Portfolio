@@ -876,5 +876,21 @@
     font-size: 25px;
   }
 
+  .form-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(241, 104, 41);
+    height: 80px;
+    margin-bottom: 5px;
+  } 
+  
+  .error {
+    font-size: 14px !important;
+    color: rgb(245, 239, 239) !important;
+    height: 50px !important;
+    margin-top: -10%;
+    position: absolute;
+  }
   /* section contact end */
 }
