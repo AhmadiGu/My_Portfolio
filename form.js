@@ -6,8 +6,12 @@ form.addEventListener('submit', (e) => {
   const lastName = form.name.value;
   const email = form.email.value;
   const message = form.message.value;
-  if (email !== email.toLowerCase()) {
+  if (email !== email.toLowerCase()) { 
     e.preventDefault();
+    emailError.style.opacity = 1;
     emailError.innerHTML = `<p class="error">Email should be written in lowercase letters: ${email}</p>`;
-  } 
+  } else {
+    emailError.innerHTML = ''; 
+    emailError.style.opacity = 0;
+  }
 });
