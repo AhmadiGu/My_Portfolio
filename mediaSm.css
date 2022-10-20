@@ -4,6 +4,14 @@
     margin: 0%;
   }
 
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
   .contact p br {
     display: none;
   }
@@ -46,18 +54,42 @@
 
   .menu {
     list-style-type: none;
-    margin-right: 10%;
-    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #3c3a39;
+    top: 70px;
+    left: 0;
+    text-align: left;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .menu li.optinal-link {
     display: none;
+    border-bottom: none;
+  }
+
+  .menu li {
+    margin: 50px 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid  rgb(204, 199, 199);
   }
 
   .link {
-    color: #fff;
+    color: rgb(252, 244, 244);
     text-transform: capitalize;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16.5px;
+    font-size: 45px;
     line-height: 24px;
   }
 
@@ -66,11 +98,39 @@
     margin-right: 30px;
   }
 
+  .icon {
+    margin-right: 6%;
+  }
+
   .fa-bars,
   .fa-times {
     color: white;
     font-size: 25px;
     margin-right: 6%;
+  }
+
+  .fa-times {
+    display: none;
+  }
+
+  .active .menu {
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .active .icon .fa-bars {
+    display: none;
+  }
+
+  .active .logo {
+    display: none;
+  }
+
+  .active .icon .fa-times {
+    display: inline-block;
+    margin-left: 630px;
   }
 
   /* head line start   */
@@ -136,11 +196,11 @@
   }
 
   div.contact ul {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 38%;
-    text-decoration: none !important;
   }
 
   div.contact li {
@@ -358,6 +418,12 @@
     padding: 0%;
     width: 375px;
     height: 406px;
+  }
+
+  div.profesional:hover {
+    transition: all 0.3s linear;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
   }
 
   div.profesional h3 {
@@ -635,6 +701,16 @@
   div.list-content .list-icon {
     width: 15px;
     height: 15px;
+  }
+
+  img.list-icon {
+    transition: all 0.3s linear;
+  }
+
+  img.list-icon:hover {
+    transform: rotate(360deg);
+    outline: 1px solid  #f55800;
+    border-radius: 50%;
   }
 
   /* section about end */
