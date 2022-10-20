@@ -11,20 +11,21 @@
   section.explain img.img {
     display: none;
   }
+
   @media (min-width: 990px) and (max-width: 1200px) {
     * {
       padding: 0%;
       margin: 0%;
     }
-  
+
     .contact p br {
       display: none;
     }
-  
+
     section.explain img.img {
       display: none;
     }
-  
+
     h1,
     h2,
     h3,
@@ -33,7 +34,7 @@
       font-family: serif;
       font-style: normal;
     }
-  
+
     /* start of header */
     .logo {
       font-family: "Roboto", sans-serif;
@@ -45,7 +46,7 @@
       color: #fff;
       padding-left: 10%;
     }
-  
+
     /* start of  navbar */
     nav {
       display: flex;
@@ -56,14 +57,14 @@
       padding-top: 2%;
       padding-bottom: 2%;
     }
-  
+
     .menu {
       list-style-type: none;
       margin-right: 10%;
       display: flex;
       flex-direction: row;
     }
-  
+
     .link {
       color: #fff;
       text-transform: capitalize;
@@ -73,23 +74,23 @@
       font-size: 16.5px;
       line-height: 24px;
     }
-  
+
     a {
       text-decoration: none;
       margin-right: 30px;
     }
-  
+
     .fa-bars,
     .fa-times {
       color: white;
       font-size: 25px;
       display: none;
     }
-  
+
     /* head line start   */
-  
+
     /* section start */
-  
+
     section.explain {
       display: flex;
       flex-direction: column;
@@ -99,7 +100,7 @@
       position: relative;
       height: 570px;
     }
-  
+
     section.explain h1 {
       font-family: 'Crete Round', sans-serif;
       font-style: normal;
@@ -111,7 +112,7 @@
       margin-top: 120px;
       margin-left: 10%;
     }
-  
+
     section.explain h2 {
       width: 35%;
       height: 27px;
@@ -126,7 +127,7 @@
       margin-top: 20px;
       margin-left: 10%;
     }
-  
+
     section.explain h3 {
       width: 32%;
       height: 123px;
@@ -139,46 +140,46 @@
       margin-top: 20px;
       margin-left: 10%;
     }
-  
+
     div.contact {
       align-self: flex-start;
       margin-top: 180px;
       position: absolute;
     }
-  
+
     div.contact ul {
       text-decoration: none;
     }
-  
+
     div.contact li {
       margin-top: 10px;
     }
-  
+
     div.contact .fa-twitter {
       color: #dbd8d7;
       font-size: 25px;
     }
-  
+
     div.contact .fa-linkedin {
       color: #dbd8d7;
       font-size: 25px;
     }
-  
+
     div.contact .fa-github {
       color: #dbd8d7;
       font-size: 25px;
     }
-  
+
     div.contact .fa-medium {
       color: #dbd8d7;
       font-size: 25px;
     }
-  
+
     div.contact .fa-angellist {
       color: #dbd8d7;
       font-size: 25px;
     }
-  
+
     section.explain img.img1 {
       width: 45%;
       height: 100%;
@@ -186,9 +187,9 @@
       position: absolute;
       margin-right: 0;
     }
-  
+
     /* head line end   */
-  
+
     section.works {
       background: #fff;
       margin: 0%;
@@ -200,7 +201,7 @@
       flex-direction: column;
       align-items: space-between;
     }
-  
+
     .title {
       width: 327px;
       height: 83px;
@@ -218,7 +219,7 @@
       margin-top: 0%;
       align-self: flex-start;
     }
-  
+
     section.works hr {
       width: 53%;
       height: 0;
@@ -228,11 +229,11 @@
       margin-right: 5%;
       margin-left: 4%;
     }
-  
+
     section.about hr {
       border: 1px solid #e2dfdf;
     }
-  
+
     div.image {
       width: 45%;
       height: 58vh;
@@ -240,17 +241,17 @@
       float: left;
       margin-bottom: 2%;
     }
-  
+
     div.image img {
       width: 100%;
       height: 100%;
     }
-  
+
     div.content {
       width: 48%;
       float: right;
     }
-  
+
     h2.corner-title {
       width: 327px;
       height: 36px;
@@ -262,7 +263,7 @@
       color: #091e42;
       margin-left: 6.5%;
     }
-  
+
     p.content {
       width: 60%;
       height: auto;
@@ -275,7 +276,7 @@
       margin-left: 6.5%;
       margin-top: 3%;
     }
-  
+
     div.lessons {
       display: flex;
       flex-direction: row;
@@ -284,7 +285,7 @@
       margin-bottom: 2%;
       margin-top: 1%;
     }
-  
+
     div.lessons span {
       box-sizing: border-box;
       padding: 10px 12px;
@@ -298,24 +299,24 @@
       line-height: 20px;
       color: #091e42;
     }
-  
+
     span.html {
       width: 56px;
     }
-  
+
     span.css {
       width: 56px;
       margin-left: 0% !important;
     }
-  
+
     span.bootstrap {
       width: 95px;
     }
-  
+
     span.ruby {
       width: 56px;
     }
-  
+
     button.see {
       border: none;
       outline: none;
@@ -326,23 +327,23 @@
       margin-left: 6.5%;
       margin-bottom: 50px;
     }
-  
+
     button.see:hover {
       background: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
     }
-  
+
     button.see:active {
       background: #e05304;
       color: #fff5e1;
     }
-  
+
     button.see:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     /* profitional part */
     div.subjects {
       width: 100%;
@@ -355,20 +356,20 @@
       flex-wrap: wrap;
       padding-bottom: 10%;
     }
-  
+
     div.profesional {
       margin: 0%;
       padding: 0%;
       width: 270px;
       height: 406px;
     }
-  
+
     div.profesional:hover {
       transition: all 0.3s linear;
       border-radius: 5%;
       box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
     }
-  
+
     div.profesional h3 {
       font-family: 'Crete Round', sans-serif;
       font-style: normal;
@@ -381,7 +382,7 @@
       margin-left: 6.5%;
       margin-top: 95px;
     }
-  
+
     .profesional p {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -393,7 +394,7 @@
       margin-top: 15px;
       margin-right: 3%;
     }
-  
+
     div.language {
       display: flex;
       flex-direction: row;
@@ -402,7 +403,7 @@
       margin-top: 12px;
       margin-left: 26px;
     }
-  
+
     div.language span {
       box-sizing: border-box;
       padding: 10px 12px;
@@ -416,7 +417,7 @@
       line-height: 20px;
       color: #fff;
     }
-  
+
     button.see-project {
       border: none;
       outline: none;
@@ -427,69 +428,69 @@
       width: 270px;
       margin-top: 366px;
     }
-  
+
     button.see-project:hover {
       background: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
     }
-  
+
     button.see-project:active {
       background: #e05304;
       color: #fff5e1;
     }
-  
+
     button.see-project:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     div.p-1 {
       margin-left: 32px;
       margin-right: 10px;
       background: url(images/Placeholder1.png) no-repeat;
       border: 1px solid rgb(22, 17, 17);
     }
-  
+
     div.p-2 {
       margin-right: 10px;
       background: url(images/Placeholder2.png) no-repeat;
     }
-  
+
     div.p-3 {
       margin-right: 32px;
       background: url(images/Placeholder3.png) no-repeat;
     }
-  
+
     div.p-4 {
       margin-top: 20px;
       margin-left: 32px;
       margin-right: 10px;
       background: url(images/Placeholder6.png) no-repeat;
     }
-  
+
     div.p-5 {
       margin-top: 20px;
       margin-right: 10px;
       background: url(images/Placeholder2.png) no-repeat;
     }
-  
+
     div.p-6 {
       margin-top: 20px;
       margin-right: 32px;
       background: url(images/Placeholder3.png) no-repeat;
     }
-  
+
     div.p-3 h3 {
       margin-top: 140px;
     }
-  
+
     div.p-6 h3 {
       margin-top: 100px;
     }
-  
+
     /* section works end */
-  
+
     /* section about start */
     section.about {
       position: absolute;
@@ -501,14 +502,14 @@
       flex-direction: row;
       flex-wrap: wrap;
     }
-  
+
     .about-content {
       margin-top: 8%;
       margin-left: 5%;
       width: 38.5%;
       padding-right: 4.08%;
     }
-  
+
     section.about h1 {
       font-family: 'Crete Round', sans-serif;
       font-style: normal;
@@ -518,7 +519,7 @@
       color: #ff6b00;
       margin-top: 4%;
     }
-  
+
     .about p {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -529,7 +530,7 @@
       margin-top: 30px;
       padding-bottom: 6%;
     }
-  
+
     button.get {
       border: none;
       outline: none;
@@ -538,29 +539,29 @@
       padding: 10px;
       font-size: 18px;
     }
-  
+
     button.get:hover {
       background: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
     }
-  
+
     button.get:active {
       background: #e05304;
       color: #fff5e1;
     }
-  
+
     button.get:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     .about-img {
       width: 42%;
       margin-top: 100px;
       margin-left: 101px;
     }
-  
+
     hr.about-hr {
       width: 90%;
       margin-top: 8%;
@@ -569,7 +570,7 @@
       margin-right: 4%;
       border: 1px solid #fff;
     }
-  
+
     .about-list {
       display: flex;
       flex-direction: row;
@@ -578,12 +579,12 @@
       margin-right: 4%;
       width: 100%;
     }
-  
+
     div.list-content {
       margin-left: 10%;
       width: 20%;
     }
-  
+
     div.list-content span.lang {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -592,7 +593,7 @@
       line-height: 28px;
       color: #fcfcfd;
     }
-  
+
     div.list-content ul {
       list-style-type: none;
       padding: 0%;
@@ -603,7 +604,7 @@
       margin-top: 5%;
       margin-bottom: 20%;
     }
-  
+
     div.list-content ul li {
       padding: 5%;
       color: #d7dde4;
@@ -614,7 +615,7 @@
       line-height: 28px;
       text-align: center;
     }
-  
+
     .about-list span.frame {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -623,7 +624,7 @@
       line-height: 28px;
       color: #fcfcfd;
     }
-  
+
     .about-list span.skill {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -633,19 +634,19 @@
       color: #fcfcfd;
       display: inline-block;
     }
-  
+
     img.list-icon {
       transition: all 0.3s linear;
     }
-  
+
     img.list-icon:hover {
       transform: rotate(360deg);
       outline: 1px solid  #f55800;
       border-radius: 50%;
     }
-  
+
     /* section about end */
-  
+
     /* section contact */
     section.contact {
       display: flex;
@@ -658,7 +659,7 @@
       margin-top: 900px;
       background: #fff;
     }
-  
+
     section.contact p {
       width: 32%;
       padding-right: 6%;
@@ -672,13 +673,13 @@
       padding-top: 10%;
       padding-bottom: 10%;
     }
-  
+
     section.contact form {
       width: 50%;
       margin-right: 5%;
       box-sizing: border-box;
     }
-  
+
     section.contact .item {
       width: 100%;
       height: 40px;
@@ -689,7 +690,7 @@
       border-bottom: 2px solid #dbd8d7;
       box-sizing: border-box;
     }
-  
+
     section.contact .item::placeholder {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -698,21 +699,21 @@
       line-height: 24px;
       color: #979493;
     }
-  
+
     section.contact textarea {
       height: 140px !important;
       resize: vertical;
     }
-  
+
     section.contact input.item1 {
       width: 47.5%;
     }
-  
+
     section.contact input.item2 {
       width: 47.5%;
       margin-left: 4%;
     }
-  
+
     section.contact .textarea::placeholder {
       font-family: 'Inter', sans-serif;
       font-style: normal;
@@ -721,7 +722,7 @@
       line-height: 24px;
       color: #3c3a39;
     }
-  
+
     button.touch {
       border: none;
       outline: none;
@@ -731,23 +732,23 @@
       font-size: 18px;
       margin-bottom: 40px;
     }
-  
+
     button.touch:hover {
       background: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
     }
-  
+
     button.touch:active {
       background: #e05304;
       color: #fff5e1;
     }
-  
+
     button.touch:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     section.contact hr {
       background: #dfe1e6;
       margin-top: 70px;
@@ -755,7 +756,7 @@
       height: 0;
       border: 1px solid #dfe1e6;
     }
-  
+
     ul.contact-footer {
       list-style-type: none;
       display: flex;
@@ -763,14 +764,15 @@
       margin-top: 5%;
       margin-bottom: 6%;
     }
-  
+
     li a i.color {
       color: #505f79;
       font-size: 25px;
     }
-  
+
     /* section contact end */
   }
+
   h1,
   h2,
   h3,
