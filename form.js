@@ -9,5 +9,14 @@ form.addEventListener('submit', (e) => {
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     emailError.innerHTML = `<p class="error">Email should be written in lowercase letters: ${email}</p>`;
-  } 
+  } else {
+    emailError.innerHTML = '';
+    const data = JSON.stringify({ firstName,lastName, email, message });
+    localStorage.setItem('data', data);
+  }
 });
+const userData = JSON.parse(localStorage.getItem('data'));
+form.firstName.value = userData.name;
+form.lastName.value = userData.name;
+form.email.value = userData.email;
+form.message.value = userData.message;
