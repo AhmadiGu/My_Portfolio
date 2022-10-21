@@ -50,11 +50,12 @@
     background: #3c3a39;
     padding-top: 4%;
     padding-bottom: 4%;
+    position: fixed;
   }
 
   .menu {
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background: #3c3a39;

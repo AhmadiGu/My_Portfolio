@@ -41,5 +41,5 @@ Give a ⭐️ if you like this project!
 [Microverse-Student-Project] (https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?)
 
 ## 📝 License
-
+This project is MIT Licensed.
  
