@@ -121,7 +121,7 @@
   }
 
   .active .icon .fa-bars {
-    display: none; 
+    display: none;
   }
 
   .active .logo {
@@ -132,9 +132,11 @@
     display: inline-block;
     margin-left: 530px !important;
   }
-  .disappear{
+
+  .disappear {
     opacity: 0;
   }
+
   /* head line start   */
 
   /* section start */

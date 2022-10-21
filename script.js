@@ -7,6 +7,6 @@ const toggleMenu = () => {
 };
 mobileMenu.addEventListener('click', () => toggleMenu());  
 const displayNone = () => {
-  menuHeader.classList.remove('.active');
+  menuHeader.classList.remove('active');
 };
-menuLink.addEventListener('click', () => displayNone());  
+menu.addEventListener('click', () => displayNone());  
