@@ -810,8 +810,8 @@
     justify-content: flex-start;
     background-color: rgb(243, 100, 33);
     height: 50px;
-    margin-bottom: 5px;
-    opacity: 0;
+    margin-bottom: 5px; 
+    opacity: 0; 
   }
 
   .error {
