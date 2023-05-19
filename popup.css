@@ -1,0 +1,151 @@
+.featured-project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.works-categories {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 7%;
+}
+
+.work-skills {
+  background: #fff;
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  padding: 10px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  gap: 20px;
+  width: 80%;
+  margin-left: 8%;
+}
+
+.modal-close {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #67798e;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#modal-title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+#modal-description {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  margin-right: 20%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#live-link {
+  background-image: url(images/live-Icon.png);
+}
+
+#source-link {
+  background-image: url(images/Vector.png);
+}
+
+#live-link,
+#source-link {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.75rem 2.5rem 0.75rem 0.5rem;
+  background-position: 90%;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+  background-color: #f55800;
+  color: #fff;
+  margin-right: 10px;
+}
+
+#live-link:hover {
+  background-image: url(../images/shapes/see-live-orange.svg);
+  color: #f55800;
+  background-color: #fff;
+  border: 1px solid #f55800;
+}
+
+#source-link:hover {
+  background-image: url(../images/shapes/github-orange.svg);
+  color: #f55800;
+  background-color: #fff;
+  border: 1px solid #f55800;
+}
+
+#live-link:active {
+  background-image: url(images/live-Icon.png);
+  background-color: #6b2d01;
+  color: #fff;
+}
+
+#source-link:active {
+  background-image: url(../images/Vector.png);
+  background-color: #6b2d01;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-project {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .featured-image {
+    flex: 1.5;
+  }
+
+  .featured-content {
+    flex: 1;
+    margin-top: 20px;
+  }
+
+  .modal-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .content {
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+}
