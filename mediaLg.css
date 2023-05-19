@@ -882,9 +882,10 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgb(243, 100, 33);
-    height: 80px;
-    margin-bottom: 5px; 
+    height: 80px; 
+    margin-bottom: 5px;
   }
+
  
   .error {
     font-size: 14px !important;
