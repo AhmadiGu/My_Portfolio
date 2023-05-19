@@ -955,7 +955,9 @@
     justify-content: flex-start;
     background-color: rgb(241, 104, 41);
     height: 80px;
-    margin-bottom: 5px;
+ 
+    margin-bottom: 5px; 
+    opacity: 0; 
  
   }
  
@@ -963,8 +965,8 @@
     font-size: 14px !important;
     color: rgb(245, 239, 239) !important;
     height: 50px !important;
-    margin-top: -10%;
-    position: absolute;
+    margin-top: -15% !important;
+    position: absolute !important;
   }
  
   /* section contact end */

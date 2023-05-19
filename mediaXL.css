@@ -902,16 +902,25 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgb(240, 99, 34);
+ 
+/*     height: 50px; */
+     
+    opacity: 0; 
+ 
     height: 80px; 
     margin-bottom: 5px;
+ 
   }
  
   .error {
-    font-size: 14px !important;
+    font-size: 18px !important;
     color: rgb(245, 239, 239) !important;
     height: 50px !important;
-    margin-top: -10%;
-    position: absolute;
  
+    margin-top: -5% !important;
+    position: absolute !important;
+    margin-left: 1% !important;
+    width: 100% !important;
+  }
   /* section contact end */
-}
+
