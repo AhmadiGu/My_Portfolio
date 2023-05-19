@@ -19,19 +19,20 @@ const featuredProjectdata = {
 };
 
 featuredProject.innerHTML = `
-<div class="image">
-<img src="${featuredProjectdata.image}" alt="feature project">
-</div>
-<div class="content">
-
- <h2 class="corner-title">${featuredProjectdata.name}</h2>
-<p class="content">${featuredProjectdata.description}</p>     
-<ul class="works-categories"> 
-  ${featuredProjectdata.languages.map((featLang) => `<li class="work-skills">${featLang}</li>`).join('')}
-</ul>
-<button class="modal-button see" id="${featuredProjectdata.id}"  type="button">
-  See Projects         
-</button>
+<div class="main-project">
+  <div class="image">
+  <img src="${featuredProjectdata.image}" alt="feature project">
+  </div>
+  <div class="content"> 
+  <h2 class="corner-title">${featuredProjectdata.name}</h2>
+  <p class="content">${featuredProjectdata.description}</p>     
+  <ul class="works-categories"> 
+    ${featuredProjectdata.languages.map((featLang) => `<li class="work-skills">${featLang}</li>`).join('')}
+  </ul>
+  <button class="modal-button see" id="${featuredProjectdata.id}"  type="button">
+    See Projects         
+  </button>
+  </div>
 </div>
 `;
 
@@ -137,7 +138,7 @@ const openModal = (id) => {
   modal.style.background = '#eee';
 
   modal.innerHTML = `
-          <div class="modal" id="modal">
+        <div class="modal" id="modal">
           <div class="modal-header">
             <h2 id="modal-title">${newArray[id].name}</h2>
             <span class="modal-close" id ="modal-close">&times;</span>
