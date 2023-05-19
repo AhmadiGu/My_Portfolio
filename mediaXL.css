@@ -423,6 +423,18 @@
     background: url(images/Placeholder3.png) no-repeat;
   }
 
+  .contact-links a { 
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .contact-links a:hover {
+    padding: 5%;
+    box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
+  }
+
   .featured-project {
     display: flex;
     flex-direction: column;
