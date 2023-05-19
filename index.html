@@ -15,8 +15,10 @@
      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
    />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
+  <div class="container-element">
      <!-- header start-->
      <header class="header">
         <!-- menu start-->
@@ -29,8 +31,15 @@
        <ul class="menu"  >
            <li><a class="link" href="#headline">protfolio</a></li>
            <li><a class="link" href="#about">about</a> </li>
+ 
            <li><a class="link" href="#contact">contact</a></li>
            <li class="optinal-link"><a class="link " href="#"><i class="fa fa-envelope-o"></i></a></li>
+ 
+<!--            <li><a class="link" href="#contact">contact</a></li> 
+           <li><a class="link " href="#"><i class="fa fa-envelope-o"></i></a></li> 
+           <li class="optinal-link"><a class="link " href="#"><i class="fa fa-envelope-o"></i></a></li> -->
+ 
+ 
        </ul>
         
        </nav> 
@@ -66,6 +75,7 @@
                 
              
          </section>
+ 
          <section class="works" id="headline">
             <div class="works">
                 <h1 class="title">My Recent Works</h1>
@@ -168,6 +178,22 @@
                   </div>
                 </div>
          </section> 
+ 
+ 
+ 
+<!--          <section class="works" id="my-works">
+          <div class="works">   
+            <h1 class="title">My Recent Works</h1>
+            <hr> 
+          <div class="featured-project">  
+          </div>
+       </section>
+      
+       <section class="subjects"> 
+          
+       </section>   -->
+ 
+ 
          <section class="about" id="about">
           <div class="about-content">
           <h1> About me</h1>
@@ -224,14 +250,14 @@
         <p class="title"> I'm always <br> 
             interested in hearing about new projects,so if you'd
              like to chat please get in touch.</p>
-         <form action="https://formspree.io/f/mdojzzgj" method="post">
+         <form action="https://formspree.io/f/mdojzzgj" method="post" class="form">
              
           <input type="text" class="item item1" name="firstName"  placeholder="First Name" required   maxlength="30">
           <input type="text" class="item item2" name="lastName" placeholder="Last Name" required   maxlength="30">
             <input type="email" class="item" placeholder="Email address" name="email" required >
            
             <textarea  name="message" id="tetarea" class="item textarea" cols="20" rows="7" placeholder="Hello Mariane. Glad to see you |"   maxlength="500" required></textarea>
-           
+            
            
           <button type="submit" class="touch">Get in touch</button>
           
@@ -248,7 +274,17 @@
         </div>
         <div class="end-hr"></div>
        </section>
-      </main> 
-      <script src="script.js"></script>
+        
+      </main>  
+     
+ 
+    </div>
+    <div id="modal-container" class="modal-container">
+
+    </div>
+      <script src="script.js"></script> 
+      <script src="data.js"></script>
+      <script src="form.js"></script>
+ 
 </body>
 </html>
