@@ -304,6 +304,7 @@
     box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
   }
 
+ 
   div.profesional h3 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -327,14 +328,14 @@
     margin-left: 6.5%;
     margin-top: 15px;
     margin-right: 3%;
-=======
+ 
   div.profesional:hover{
     transition: all 0.3s linear;
     border-radius: 5%;
     box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
  
   }
-
+ 
   .profesional:hover {
     transition: all 0.3s linear;
     border-radius: 5%;
@@ -408,12 +409,18 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+ 
   }
 
   .featured-image img {
     width: 100%;
   }
+  
 
+  .featured-image img {
+    width: 100%;
+  }
+ 
   .works-categories {
     display: flex;
     gap: 10px;
@@ -710,6 +717,16 @@
     transition: all 0.3s linear;
   }
   img.list-icon:hover{
+    transform: rotate(360deg);
+    outline: 1px solid  #f55800;
+    border-radius: 50%;
+  }
+
+  img.list-icon {
+    transition: all 0.3s linear;
+  }
+
+  img.list-icon:hover {
     transform: rotate(360deg);
     outline: 1px solid  #f55800;
     border-radius: 50%;
