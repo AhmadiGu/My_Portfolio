@@ -123,7 +123,14 @@
 
   .active .icon .fa-times {
     display: block;
-    margin-left: 430px;
+    margin-left: 430px !important;
+    font-weight: 10px;
+    line-height: normal;
+    font-size: 20px;
+  }
+
+  .disappear {
+    opacity: 0;
   }
 
   /* head line start   */
