@@ -17,7 +17,6 @@
   h3,
   h4,
   h5 {
-
     font-family: serif;
     font-style: normal;
   }
@@ -310,15 +309,7 @@
     width: 280px;
     height: 406px;
   }
- 
 
-  div.profesional:hover {
-    transition: all 0.3s linear;
-    border-radius: 5%;
-    box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
-  }
-
- 
   div.profesional h3 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -342,14 +333,14 @@
     margin-left: 6.5%;
     margin-top: 15px;
     margin-right: 3%;
- 
-  div.profesional:hover{
+  }
+
+  div.profesional:hover {
     transition: all 0.3s linear;
     border-radius: 5%;
     box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
- 
   }
- 
+
   .profesional:hover {
     transition: all 0.3s linear;
     border-radius: 5%;
@@ -459,23 +450,22 @@
     background-color: #fff;
     top: 5%;
     overflow-y: auto;
-    margin: 0 30px;
-    width: 100%;
+    width: 80%;
     margin-left: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
   }
 
   .modal {
     display: flex;
     flex-direction: column;
-    gap: 2px;
     width: 100%;
   }
 
   .modal-close {
     font-size: 1.75rem;
-    font-weight: 500;
+    font-weight: 900;
     color: #67798e;
+    margin-right: -10px;
   }
 
   .modal-close:hover,
@@ -507,13 +497,26 @@
     width: 90%;
   }
 
+  .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
     width: 90%;
-    margin-left: -10%;
-    margin-top: -3%;
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   #live-link {
@@ -581,6 +584,11 @@
     margin-left: 5%;
     width: 40.5%;
     padding-right: 4.08%;
+  }
+
+  div.about-me {
+    display: flex;
+    flex-direction: row;
   }
 
   section.about h1 {
@@ -713,34 +721,6 @@
     width: 15px;
     height: 15px;
   }
-  img.list-icon{
-    transition: all 0.3s linear;
-  }
-  img.list-icon:hover{
-    transform: rotate(360deg);
-    outline: 1px solid  #f55800;
-    border-radius: 50%;
-  }
-
-  img.list-icon {
-    transition: all 0.3s linear;
-  }
-
-  img.list-icon:hover {
-    transform: rotate(360deg);
-    outline: 1px solid  #f55800;
-    border-radius: 50%;
-  }
-
-  img.list-icon {
-    transition: all 0.3s linear;
-  }
-
-  img.list-icon:hover {
-    transform: rotate(360deg);
-    outline: 1px solid  #f55800;
-    border-radius: 50%;
-  }
 
   img.list-icon {
     transition: all 0.3s linear;
@@ -872,14 +852,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(248, 100, 32); 
+    background-color: rgb(248, 100, 32);
     height: 80px;
-    margin-bottom: 5px; 
-    opacity: 0; 
- 
+    margin-bottom: 5px;
+    opacity: 0;
+    color: white;
   }
 
- 
   .error {
     font-size: 14px !important;
     color: rgb(245, 239, 239) !important;
@@ -887,6 +866,6 @@
     margin-top: -15% !important;
     position: absolute !important;
   }
- 
+
   /* section contact end */
 }

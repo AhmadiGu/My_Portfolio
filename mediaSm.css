@@ -47,20 +47,17 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background: #3c3a39;
     padding-top: 4%;
     padding-bottom: 4%;
-    position: fixed;
+    background: #3c3a39;
   }
 
   .menu {
     list-style-type: none;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100vh;
     background: #3c3a39;
-    top: 70px;
-    left: 0;
     text-align: left;
     z-index: 999;
     transform: translateX(100%);
@@ -68,6 +65,8 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    top: 70px;
+    left: 0;
   }
 
   .menu li.optinal-link {
@@ -90,7 +89,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 24px;
   }
 
@@ -206,6 +205,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 38%;
+    list-style: none;
   }
 
   div.contact li {
@@ -345,6 +345,7 @@
     margin-left: 6.5%;
     margin-bottom: 50px;
     width: 45%;
+    white-space: nowrap !important;
   }
 
   button.see:hover {
@@ -382,7 +383,6 @@
     width: 375px;
     height: 406px;
   }
- 
 
   div.profesional:hover {
     transition: all 0.3s linear;
@@ -390,7 +390,6 @@
     box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
   }
 
- 
   div.profesional h3 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -415,19 +414,6 @@
     margin-top: 15px;
     margin-right: 3%;
   }
-  div.profesional:hover{
-    transition: all 0.3s linear;
-    border-radius: 5%;
-    box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
- 
-  }
-
- 
-  .profesional:hover {
-    transition: all 0.3s linear;
-    border-radius: 5%;
-    box-shadow: 4px 4px 4px 4px #f55a00f3, -4px -4px 4px 4px #f58b00f3;
-  }
 
   button.see-project {
     border: none;
@@ -438,6 +424,7 @@
     font-size: 18px;
     width: 369px;
     margin-top: 365px;
+    white-space: nowrap !important;
   }
 
   button.see-project:hover {
@@ -501,7 +488,7 @@
 
   .featured-project {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
   }
 
@@ -529,23 +516,17 @@
     padding: 10px;
   }
 
-  div.content {
-    width: 48%;
-    align-self: flex-end;
-    margin-top: -60%;
-  }
-
   /* section popup */
   .modal-container {
     display: none;
     position: fixed;
-    height: 600px;
     background-color: #fff;
     top: 5%;
     overflow-y: auto;
-    margin: 0 30px;
-    width: 100%;
+    width: 80%;
     margin-left: 5%;
+    padding: 5%;
+    height: 78vh;
   }
 
   .modal {
@@ -557,7 +538,7 @@
 
   .modal-close {
     font-size: 1.75rem;
-    font-weight: 500;
+    font-weight: 900;
     color: #67798e;
   }
 
@@ -590,11 +571,21 @@
     width: 90%;
   }
 
+  .modal-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 90%;
+    max-width: 600px !important;
   }
 
   #live-link {
@@ -711,9 +702,14 @@
   }
 
   .about-img {
-    width: 47%;
+    width: 42%;
     margin-top: 100px;
-    margin-left: 24.5px;
+    margin-left: 66.5px;
+  }
+
+  div.about-me {
+    display: flex;
+    flex-direction: row;
   }
 
   hr.about-hr {
@@ -737,6 +733,8 @@
   div.list-content {
     margin-left: 10%;
     width: 20%;
+    display: flex;
+    flex-direction: column;
   }
 
   div.list-content ul {
@@ -748,6 +746,7 @@
     flex-direction: column;
     margin-top: 5%;
     margin-bottom: 25%;
+    margin-left: 20px;
   }
 
   div.list-content ul li {
@@ -776,16 +775,22 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 19px;
     color: #fcfcfd;
+  }
+
+  .iconss {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
 
   .about-list span.skill {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 20px;
     color: #fcfcfd;
     display: inline-block;
   }
@@ -793,34 +798,6 @@
   div.list-content .list-icon {
     width: 15px;
     height: 15px;
-  }
-  img.list-icon{
-    transition: all 0.3s linear;
-  }
-  img.list-icon:hover{
-    transform: rotate(360deg);
-    outline: 1px solid  #f55800;
-    border-radius: 50%;
-  }
-
-  img.list-icon {
-    transition: all 0.3s linear;
-  }
-
-  img.list-icon:hover {
-    transform: rotate(360deg);
-    outline: 1px solid  #f55800;
-    border-radius: 50%;
-  }
-
-  img.list-icon {
-    transition: all 0.3s linear;
-  }
-
-  img.list-icon:hover {
-    transform: rotate(360deg);
-    outline: 1px solid  #f55800;
-    border-radius: 50%;
   }
 
   img.list-icon {
@@ -955,12 +932,11 @@
     justify-content: flex-start;
     background-color: rgb(241, 104, 41);
     height: 80px;
- 
-    margin-bottom: 5px; 
-    opacity: 0; 
- 
+    color: white;
+    margin-bottom: 5px;
+    opacity: 0;
   }
- 
+
   .error {
     font-size: 14px !important;
     color: rgb(245, 239, 239) !important;
@@ -968,6 +944,6 @@
     margin-top: -15% !important;
     position: absolute !important;
   }
- 
+
   /* section contact end */
 }
