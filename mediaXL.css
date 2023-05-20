@@ -1,4 +1,5 @@
-@media (min-width: 1200px) and (max-width: 2000px) {
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@media (min-width: 1200px) and (max-width: 2000px) { 
   * {
     padding: 0%;
     margin: 0%;
@@ -23,15 +24,15 @@
 
   /* start of header */
   .logo {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Waterfall', cursive;
     font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 900;
+    font-size: 35px;
     line-height: 24px;
     text-align: center;
     color: #fff;
     padding-left: 10%;
-    transition: all 0.3s linear;
+    transition: all 0.3s linear; 
   }
 
   .logo:hover {
@@ -92,7 +93,7 @@
   section.explain {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     background: #1c1a19;
     position: relative;
@@ -895,4 +896,11 @@
   }
 
   /* section contact end */
+
+  /* CSS for typewriter animation */
+  .info-me { 
+    margin-left: 3%; 
+    width: 100%;
+  }
+
 }

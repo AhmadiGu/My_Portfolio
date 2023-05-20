@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 @media (min-width: 990px) and (max-width: 1200px) {
   * {
     padding: 0%;
@@ -23,7 +24,7 @@
 
   /* start of header */
   .logo {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Waterfall', cursive;
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -60,7 +61,7 @@
     font-size: 16.5px;
     line-height: 24px;
   }
-  
+
   .contact-links a { 
     margin-left: 25%;
     width: 40px;
@@ -878,4 +879,8 @@
   }
 
   /* section contact end */
+  .info-me { 
+    margin-left: 3%; 
+    width: 100%;
+  }
 }
