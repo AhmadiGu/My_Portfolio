@@ -6,7 +6,7 @@ const container = document.querySelector('.container-element');
 const featuredProjectdata = {
   id: 0,
   name: 'Weather Hub',
-  image: 'images/weatherProject.png',
+  image: 'images/weather.jpg',
   imageUrl: 'images/weatherProject.png',
   description: 'Weather Hub is a React and Redux application that provides current weather info on different countries around the world. and also you can filter the countries according to their related continent.',
   languages: [
@@ -66,13 +66,13 @@ const projectData = [
       'Javascript',
     ],
     liveUrl: 'https://ahmadigu.github.io/Global_streaming/',
-    getUrl: 'https://github.com/AhmadiGu/Global_streaming'
+    getUrl: 'https://github.com/AhmadiGu/Global_streaming',
   },
   {
     id: 3,
     name: 'Budget Tracker',
     image: 'third',
-    imageUrl: 'images/budget.png', 
+    imageUrl: 'images/budget.png',
     description: 'The Budget Tracker app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     languages: [
       'Ruby On Rails',
@@ -80,13 +80,13 @@ const projectData = [
       'Bootstrap',
     ],
     liveUrl: 'https://budget-app-p05r.onrender.com/',
-    getUrl: 'https://github.com/AhmadiGu/Budget_tracker'
+    getUrl: 'https://github.com/AhmadiGu/Budget_tracker',
   },
   {
     id: 4,
     name: 'Book Store',
     image: 'fourth',
-    imageUrl: 'images/bookstore.png', 
+    imageUrl: 'images/bookstore.png',
     description: 'The Book Store is single page website which will allows you to add books with their category and also see the previous added books and also the progress of each book. Website is react based.',
     languages: [
       'HTML',
@@ -118,7 +118,7 @@ const projectData = [
     id: 6,
     name: 'Awesome Books',
     image: 'sixth',
-    imageUrl: 'images/book.png', 
+    imageUrl: 'images/book.png',
     description: 'Awesome Books is a single page website which will allows you to add books with their category and also see the previous added books and also the progress of each book.',
     languages: [
       'HTML',
