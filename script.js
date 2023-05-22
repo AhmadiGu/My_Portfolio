@@ -1,7 +1,7 @@
 const mobileMenu = document.querySelector('.icon');
 const menuHeader = document.querySelector('.header');
 const menu = document.querySelector('.menu');
- 
+
 const toggleMenu = () => {
   menuHeader.classList.toggle('active');
 };
