@@ -992,7 +992,7 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: transparent;
-    color: #f55800; 
+    color: #f55800;
     opacity: 0;
     height: 80px;
     margin-bottom: 5px;
@@ -1000,7 +1000,7 @@
 
   .error {
     font-size: 28px !important;
-    color:  #f55800 !important;
+    color: #f55800 !important;
     font-family: 'waterfall', cursive !important;
     height: 50px !important;
     margin-top: -5% !important;
