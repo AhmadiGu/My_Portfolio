@@ -1046,16 +1046,17 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(241, 104, 41);
+    background-color: transparent;
     height: 80px;
-    color: white;
+    color: #f16305;
     margin-bottom: 5px;
     opacity: 0;
   }
 
   .error {
-    font-size: 14px !important;
-    color: rgb(245, 239, 239) !important;
+    font-size: 24px !important;
+    color: #f16305 !important;
+    font-family: 'waterfall', cursive !important;
     height: 50px !important;
     margin-top: -15% !important;
     position: absolute !important;
