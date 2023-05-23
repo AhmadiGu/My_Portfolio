@@ -13,8 +13,7 @@ const featuredProjectdata = {
     'HTML',
     'Css',
     'Javascript',
-    'React',
-    'Redux',
+    'React/Redux', 
   ],
   liveUrl: 'https://weather-app-hub.netlify.app/',
   getUrl: 'https://github.com/AhmadiGu/Weather-React-App',
@@ -102,7 +101,7 @@ const projectData = [
     id: 5,
     image: 'fifth',
     imageUrl: 'images/food.png',
-    name: 'Food Recipe App',
+    name: 'Food Recipes',
     description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
     languages: [
       'HTML',
@@ -133,7 +132,7 @@ const projectData = [
 
 project.innerHTML = projectData.map((project) => (
   `
-  <div class="${project.image}-project profesional" data-name="${project.name}"> 
+   <div class="${project.image}-project profesional" data-name="${project.name}" data-lan="${project.languages}"> 
       <button id=${project.id} class="see-project modal-button" >
       See Project
     </button>
