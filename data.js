@@ -13,11 +13,10 @@ const featuredProjectdata = {
     'HTML',
     'Css',
     'Javascript',
-    'React/Redux', 
+    'React/Redux',
   ],
   liveUrl: 'https://weather-app-hub.netlify.app/',
-  getUrl: 'https://github.com/AhmadiGu/Weather-React-App',
-
+  getUrl: 'https://github.com/AhmadiGu/Weather-React-App', 
 };
 
 featuredProject.innerHTML = `
