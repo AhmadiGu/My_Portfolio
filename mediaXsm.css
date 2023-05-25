@@ -38,11 +38,11 @@
 
   /* start of  navbar */
 
-  .header { 
+  .header {
     position: fixed;
     top: 0;
-    z-index: 100; 
-    width: 100%; 
+    z-index: 100;
+    width: 100%;
   }
 
   nav {
