@@ -92,7 +92,7 @@ const projectData = [
       'Javascript',
       'react',
     ],
-    liveUrl: 'https://github.com/AhmadiGu/BookStore',
+    liveUrl: 'https://scintillating-horse-796d5a.netlify.app/',
     getUrl: 'https://github.com/AhmadiGu/BookStore',
 
   },
