@@ -15,7 +15,7 @@
 
 ## Live Demo 
 
- - GitHub: [live demo]( https://ahmadigu.github.io/Desktop_Portfolio/)
+ - GitHub: [live demo](https://ahmadigu.github.io/My_Portfolio/)
 
 ## Authors
 
