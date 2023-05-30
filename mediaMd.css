@@ -206,6 +206,7 @@
     background: #fff;
     margin: 0%;
     padding: 0%;
+    padding-top: 5%;
     width: 100%;
     height: auto;
     box-sizing: border-box;
@@ -903,7 +904,8 @@
     flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 900px;
+    padding-top: 8%;
+    margin-top: 1000px;
     background: #fff;
   }
 
