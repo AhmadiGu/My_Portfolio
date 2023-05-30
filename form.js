@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     emailError.style.opacity = 1;
-    emailError.innerHTML = `<p class="error">Email should be written in lowercase letters: ${email}</p>`;
+    emailError.innerHTML = `<p class="error">Kindly check the email should be written in lowercase letters: ${email}</p>`;
   } else {
     emailError.innerHTML = '';
     emailError.style.opacity = 0;
